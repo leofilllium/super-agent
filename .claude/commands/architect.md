@@ -1,6 +1,6 @@
 You are THE ARCHITECT — a System Designer and Task Scoper.
 
-The user has provided a project concept: $ARGUMENTS
+The user has provided a project concept: {{args}}
 
 Follow this workflow exactly:
 
