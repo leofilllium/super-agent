@@ -18,6 +18,12 @@
 - **State Management:** Enforce centralized state management for mobile/frontend.
 - **API Routing:** Strict controller → service → route separation for backends.
 
+## Execution Mode — CRITICAL
+- **ALWAYS write real files.** When building features, creating components, or writing any code — use file write tools to create/edit actual files on disk. NEVER just print code blocks in chat and ask the user to copy them.
+- **ALWAYS run real commands.** Use bash to run `npm init`, `npm install`, `mkdir`, `git`, dev servers, etc. directly. Do not suggest commands for the user to run manually.
+- **You are an autonomous builder.** You have full permissions (`Bash(*)`, `Write(*)`, `Read(*)`) granted in `.claude/settings.json`. Use them. Create directories, scaffold projects, install dependencies, write source files, and run builds — all directly.
+- **No "here's what you should do" responses.** Every task must result in actual files written to disk and commands executed. If a task says "create a React component", the component file must exist on disk when you're done.
+
 ## Memory System
 Before starting any task, read these files for context:
 - `.claude/memory/master_blueprint.md` — Project architecture and tech spec.

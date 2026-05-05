@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Write(*)",
+      "Read(*)",
+      "Grep(*)",
+      "LS(*)"
+    ],
+    "deny": [],
+    "defaultMode": "acceptEdits"
+  }
+}
